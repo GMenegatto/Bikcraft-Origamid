@@ -1,0 +1,290 @@
+/* tablet */
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+    .qualidade:after{
+        content: "";
+        width: 634px;
+        height: 83px;
+        display: block;
+        background: url("../img/linhas.svg");
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 220px;
+        right: 48px;
+       z-index: -1;
+    }
+
+    
+    /* pag sobre */
+
+    .missao_sobre ul li{
+        padding-right: 0px;
+    }
+
+    /* pag prod */
+
+    .produto_icone img{
+        margin: 0 auto;
+        padding: 41px 0;
+    }
+
+    
+    .produtos_item h2:before{
+        margin-top: 30px;
+    }
+
+    .produtos_item h2{
+        margin-bottom: -70px;
+    }
+    
+    .produto_info p{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 15px 40px;
+        height: 130px;
+    }
+    
+    .produto_info ul li{
+        background: #fec63e;
+        text-transform: uppercase;
+        font-size: 18px;
+        line-height: 20px;
+        font-weight: bold;
+        float: left;
+        text-align: center;
+        width: 181px;
+        height: 46px;
+        padding-top: 13px;
+        
+    }
+
+    /* footer */
+    .rsocial ul li a{
+        padding: 7px;
+    }
+
+    .rsocial ul li{
+        margin-right: 5px;
+    }
+
+    .rsocial ul li a img{
+        width: 25px;
+    }
+}
+
+/* smartphone */
+
+@media only screen and (max-width: 787px) {
+
+.call{
+    padding-top: 20px;
+}
+
+
+.header{
+    position: relative;
+}
+
+.header img{
+    margin: 0 auto 20px;
+}
+
+.header_menu{
+    text-align: center;
+}
+
+.header_menu ul li{
+    margin: 0;
+}
+
+.header_menu ul li a{
+    display: block;
+    float: left;
+    width: 140px;
+    border: 4px solid black;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+}
+
+.header_menu ul li a:hover{
+    
+    border-color: white;
+}
+
+.header{
+    padding-bottom: 0;
+}
+
+/* introduçao */
+
+.introducao{
+    margin-top: 0;
+    padding-top: 60px;
+}
+
+.introducao_interna{
+    margin-top: 0;
+}
+
+.introducao h1{
+    font-size: 40px;
+}
+
+.quote_externo p:before, .quote_externo p:after{
+    margin: 8px auto;
+}
+
+/*Produtos*/
+
+.produtos{
+    padding: 30px 0 60px 0;
+}
+
+.subtitulo{
+    margin-bottom: 20px;
+}
+
+.produtos_lista li h3{
+    padding-top: 15px;
+}
+
+.produtos_lista li p{
+    max-width: 246px;
+    text-align: center;
+    margin: 5px auto 12.5px auto;
+    padding-bottom: 10px;
+    
+}
+
+   /* pag prod */
+
+   .produto_icone img{
+    margin: 0 auto;
+    padding: 41px 0;
+}
+
+
+.produtos_item h2:before{
+    margin-top: 30px;
+}
+
+.produtos_item h2{
+    font-size: 36px;
+    margin-bottom: -90px;
+    top:-129px;
+}
+
+.produto_info p{
+    font-size: 14px;
+    line-height: 17px;
+    padding: 15px 40px;
+    height: 130px;
+}
+
+.produto_info ul li{
+    background: #fec63e;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: bold;
+    float: left;
+    text-align: center;
+    width: 149px;
+    height: 46px;
+    padding-top: 13px;
+    
+}
+
+.orcamento_dados ul li{
+    display: block;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 293px;
+    padding: 10px;
+}
+
+.orcamento_dados ul{
+    max-width: 306px;
+    border: 3px solid #fec63e;
+}
+
+.form{
+    padding-right: 0;
+}
+
+/* Portfolio */
+
+.portfolio{
+    padding: 30px 0 60px 0;
+}
+
+/* Qualidade */
+
+.qualidade{
+    padding: 30px 0 60px 0;
+}
+
+.qualidade:after{
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: none;
+    background: url("../img/linhas.svg");
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 220px;
+    right: 143px;
+   z-index: -1;
+}
+
+.qualidade li h3{
+    padding-top: 15px;
+}
+
+.qualidade img{
+    padding-bottom: 30px;
+}
+
+.qualidade li p{
+    margin: 7px auto 12.5px auto;
+    
+}
+
+
+    /* pag sobre */
+
+    .missao_sobre ul li{
+        
+        padding-right: 0px;
+    }
+
+/* footer */
+
+.quebra blockquote{
+    padding: 60px 0;
+  }
+
+.contato ul li{
+    display: block;
+}
+
+footer h3{
+    padding-top: 0px;
+}
+
+footer .footer{ 
+ padding-top: 21px;
+}
+
+.copy{
+    background: #FEC63E;
+    width: 100%;
+    height: 55px;
+    padding-top: 15px;
+}
+
+
+}
+

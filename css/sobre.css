@@ -1,0 +1,49 @@
+.interna_sobre{
+    background: url(../img/footerimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.missao_sobre{
+    padding-top: 73px;
+}
+
+.missao_sobre h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+
+.missao_sobre h2:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: black;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.missao_sobre p{
+    font-size: 18px;
+    line-height: 25px;
+    padding-right: 60px;
+    margin-bottom: 1em;
+
+}
+
+.missao_sobre ul li{
+    font-size: 18px;
+    line-height: 30px;
+    padding-right: 60px;
+}
+
+.foto_equipe{
+    padding-top: 20px;
+}
+
+.qualidade{
+    padding-bottom: 70px;
+}
