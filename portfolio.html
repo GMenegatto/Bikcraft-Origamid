@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js");</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikcraft - Portfólio</title>
@@ -32,21 +33,30 @@
 
     <section class="introducao_interna interna_portfolio">
         <div class="container">
-            <h1>Produtos</h1>
-            <p>conheça os projetos que amamos mostrar</p>
+            <h1 class="fadeInDown" data-anime="200">Produtos</h1>
+            <p class="fadeInDown" data-anime="500">conheça os projetos que amamos mostrar</p>
         </div>
     </section>
 
-    <section class="container">
-        <blockquote class="quote_cliente">
+    <section data-slide="quote" class="container">
+        <blockquote  class="quote_cliente">
             <p>"não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
             <cite>WILLIAM MORRIS</cite>
             </blockquote>
+
+        <blockquote class="quote_cliente">
+            <p>"não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
+            <cite>nbemr MORRIS</cite>
+        </blockquote>
+
+        <blockquote class="quote_cliente">
+            <p>"não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
+            <cite>jonas MORRIS</cite>
+        </blockquote>
     </section>
 
     <section class="portfolio">
-        <div class="container">
-            <h2 class="subtitulo-bco">Portfólio</h2>
+        <div data-slide="portfolio" class="container">
 
                 <ul class="portfolio_lista">
                     <li class="grid-8">
@@ -55,6 +65,22 @@
                     <li class="grid-8">
                         <img src="img/port2.png" alt="Bicicleta Passeio">
                     </li>
+                    <li class="grid-16">
+                        <img src="img/port3.png" alt="Bicicleta Retro">
+                    </li>
+                </ul>
+
+                
+
+                <ul class="portfolio_lista">
+                    <li class="grid-8">
+                        <img src="img/port2.png" alt="Bicicleta Passeio">
+                    </li>
+
+                    <li class="grid-8">
+                        <img src="img/port1.png" alt="Bicicleta Retro">
+                    </li>
+
                     <li class="grid-16">
                         <img src="img/port3.png" alt="Bicicleta Retro">
                     </li>
@@ -112,6 +138,14 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/simple-slide.js">
+    </script>
+        <script src="./js/simple-anime.js">
+        </script>
+    <script src="./js/script.js">
+    </script>
+
 
 </body>
 </html>

@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsivo.css">
+    <script>document.documentElement.classList.add("js");</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bikcraft</title>
@@ -31,12 +32,12 @@
 
     <section class="introducao">
         <div class="container">
-            <h1>Bicicletas Feitas a Mão</h1>
-            <blockquote class="quote_externo">
+            <h1 class="fadeInDown" data-anime="400">Bicicletas Feitas a Mão</h1>
+            <blockquote data-anime="800" class="fadeInDown quote_externo">
                 <p>"não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
                 <cite>WILLIAM MORRIS</cite>
             </blockquote>
-            <a href="produtos.html" class="btn"> Orçamento</a>
+            <a data-anime="1200 " href="produtos.html" class="btn"> Orçamento</a>
         </div>
     </section>
 
@@ -82,6 +83,8 @@
     <section class="portfolio">
         <div class="container">
             <h2 class="subtitulo-bco">Portfólio</h2>
+            <div data-slide="portfolio">
+
 
                 <ul class="portfolio_lista">
                     <li class="grid-8">
@@ -94,6 +97,22 @@
                         <img src="img/port3.png" alt="Bicicleta Retro">
                     </li>
                 </ul>
+
+                <ul class="portfolio_lista">
+
+                    <li class="grid-8">
+                        <img src="img/port2.png" alt="Bicicleta Passeio">
+                    </li>
+                    <li class="grid-8">
+                        <img src="img/port1.png" alt="Bicicleta Retro">
+                    </li>
+
+                    <li class="grid-16">
+                        <img src="img/port3.png" alt="Bicicleta Retro">
+                    </li>
+                </ul>
+            </div>
+
 
             <div class="call">
                 <p>Veja mais detalhes sobre nossos produtos.</p>
@@ -176,6 +195,14 @@
             </div>
         </div>
     </footer>
+
+    <script src="./js/simple-slide.js">
+    </script>
+        <script src="./js/simple-anime.js">
+        </script>
+    <script src="./js/script.js">
+    </script>
+
 
 </body>
 </html>
