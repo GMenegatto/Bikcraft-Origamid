@@ -19,7 +19,7 @@ img{
 }
 
 .btn{
-   border: 4px solid #FEC63E;
+   border: 4px solid;
    font-size: 15px;
    text-transform: uppercase;
    color: #FEC63E;
@@ -27,6 +27,7 @@ img{
    letter-spacing: .1em;
    line-height: 20px;
    padding: 10px 30px;
+   border-color:  #FEC63E;
 }
 
 .btn:hover{
@@ -141,6 +142,11 @@ img{
     letter-spacing: .1em;
     font-size: 14px;
     padding: 10px 0;
+    -webkit-transition: color 0.15s;
+    -moz-transition:    color 0.15s;
+    -ms-transition:     color 0.15s;
+    -o-transition:      color 0.15s;
+    transition:         color 0.15s;
 }
 
 .header_menu ul li a:hover{
