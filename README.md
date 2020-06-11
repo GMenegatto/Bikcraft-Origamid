@@ -5,7 +5,7 @@
 
 <h3 align="center">
 
-Site Bikcraft criado durante o curso Web Design da Origamid
+:bike: Site Bikcraft criado durante o curso Web Design da Origamid
 
 </h3>
 
